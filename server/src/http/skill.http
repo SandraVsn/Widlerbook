@@ -1,0 +1,23 @@
+POST http://localhost:4000/skills
+Content-Type: application/json
+
+{
+  "name": "React"
+}
+
+###
+
+GET http://localhost:4000/skills
+
+###
+
+PATCH http://localhost:4000/skills/3
+Content-Type: application/json
+
+{
+  "name": "modif"
+}
+
+###
+
+DELETE http://localhost:4000/skills/3
