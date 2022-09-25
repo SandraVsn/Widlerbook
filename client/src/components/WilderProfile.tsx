@@ -115,7 +115,7 @@ const WilderProfile = ({
       {processing ? (
         <>
           <button onClick={desactivateChange}>Annuler</button>
-          <button onClick={handleChangeCity}>Enregistrer</button>
+          <button onClick={handleChangeBio}>Enregistrer</button>
         </>
       ) : (
         <button onClick={activateChange}>Modifier</button>
@@ -123,7 +123,7 @@ const WilderProfile = ({
 
       <div className='flex'>
         <h4>Wild Skills</h4>
-        <button>+</button>
+        <button onClick={}>+</button>
       </div>
       <ul className=''>
         {skills.map((skill) => (
